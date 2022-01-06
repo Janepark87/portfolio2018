@@ -1,0 +1,192 @@
+/* XS Portrait */
+@media (min-width: 400px) {
+    /* Main: main_Banner */
+    .name {
+        letter-spacing: 6.5px;
+    }
+    .jobName {
+        letter-spacing: 4.2px;
+    }
+
+    /* About: Who I am */
+    .webTitle {
+        font-size: 1rem;
+    }
+}
+
+/* s */
+@media (min-width: 576px) {
+    /* Resume */
+    .resume_img {
+        display: inline;
+        text-align: right;
+    }
+    .profile_header {
+        text-align: left;
+        padding: 0.8rem 0 0 1rem;
+        width: 60%;
+    }
+    .resume_name {
+        display: inline-block;
+    }
+    .resume_jobtitle {
+        display: inline-block;
+    }
+    .profile_body {
+        display: inline-block;
+    }
+    .card_links li a {
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 0.5rem;
+    }
+
+    /* Project modal-reset */
+    .modal-dialog {
+        max-width: 100% !important;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* md */
+@media (min-width: 768px){
+    .banner_links {
+        display: inline-block;
+        text-align: left;
+    }
+    .banner_links li {
+        padding: 0.3rem 0;
+    }
+    .banner_links li i,
+    .banner_links li a {
+        display: inline-block;
+        color: #f5f5f6;
+    }
+    .banner_links li a:hover {
+        color: #ff8200;
+        text-decoration: none;
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        -ms-transition: scale .2s ease;
+    	-o-transition: scale .2s ease;
+    	-moz-transition: scale .2s ease;
+        -webkit-transition: scale .2s ease;
+        transition: scale .2s ease;
+    }
+
+    /* About: Who I am */
+    #about .aboutImg_title {
+        font-size: 2.5rem;
+    }
+    .leftContent li,
+    .rightContent li {
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 2.5px;
+    }
+
+    /* Resume */
+    .resume_wrapper  .row.m-auto{
+        padding-left: 12%;
+    }
+    .profile_header {
+        padding: 1rem 0 0 1rem;
+    }
+    .resume_jobtitle{
+        display: block;
+    }
+    .skill_list li {
+        padding: 0.3rem;
+        Width:33%;
+        display: inline-block;
+        float:left;
+    }
+    .skill_list:after{
+        display:block;
+        content: '';
+        clear:both;
+    }
+}
+
+@media (min-width: 992px){
+    /* Main: main_Banner */
+    .hello  {
+        font-weight: 600;
+    }
+    .name {
+        margin-right: -8px;
+        letter-spacing: 16px;
+    }
+    .jobName {
+        font-weight: 700;
+        letter-spacing: 7.4px;
+    }
+
+    /* About: Image split Eeffect*/
+    /* JS: left - class name */
+    .hover-left .left {
+        width: 60%;
+    }
+    .hover-left .right {
+        width: 40%;
+    }
+    /* JS: right - class name */
+    .hover-right .right {
+        width: 60%;
+    }
+    .hover-right .left {
+        width: 40%;
+    }
+
+    /* Resume */
+    .profile_header.col-sm{
+        position:relative;
+    }
+    .resume_name {
+        font-size: 3rem;
+        position:absolute;
+        bottom:15%;
+        left:50px;
+    }
+    .resume_jobtitle {
+        font-size: 1.23rem;
+        position:absolute;
+        bottom:0;
+        left:50px;
+    }
+    .profile_body {
+        position:absolute;
+        bottom:0;
+        left:48%;
+        text-align: left;
+    }
+}
+
+/* lg */
+@media (min-width: 1200px){
+    /* Main: Banner */
+    #main_banner .container {
+        max-width: 1140px;
+    }
+
+    /* navigation */
+    .navbar .container {
+        width: 1140px;
+    }
+
+    /* Project imgs */
+    .carusel-inner {
+        max-width: 1140px;
+    }
+}
+
+/* xlg */
+@media (min-width: 1400px){
+    .card-text,
+    .description {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+}
